@@ -10,6 +10,7 @@
           <ScalarProperty Name="director" ColumnName="director" />
           <ScalarProperty Name="episodios" ColumnName="episodios" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
           <ScalarProperty Name="estado" ColumnName="estado" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -23,6 +24,7 @@
           <ScalarProperty Name="director" ColumnName="director" />
           <ScalarProperty Name="episodios" ColumnName="episodios" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
+          <ScalarProperty Name="genero" ColumnName="genero" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

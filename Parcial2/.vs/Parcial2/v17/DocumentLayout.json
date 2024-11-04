@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|solutionrelative:cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|D:\\p2_Janco_Mariel\\Parcial2\\cpparcial2mvajc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|solutionrelative:cpparcial2mvajc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|D:\\p2_Janco_Mariel\\Parcial2\\cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|solutionrelative:cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\p2_Janco_Mariel\\Parcial2\\ddl_dml_parcial2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ddl_dml_parcial2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF99139-603F-4DB8-A2A8-CF8A6DB34A30}|ClnParcial2Mvajc\\ClnParcial2Mvajc.csproj|D:\\p2_Janco_Mariel\\Parcial2\\clnparcial2mvajc\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF99139-603F-4DB8-A2A8-CF8A6DB34A30}|ClnParcial2Mvajc\\ClnParcial2Mvajc.csproj|solutionrelative:clnparcial2mvajc\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006C508B-2EE3-4242-AFE2-80DCC5ACABA1}|CadParcial2Mvajc\\CadParcial2Mvajc.csproj|d:\\p2_janco_mariel\\parcial2\\cadparcial2mvajc\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{006C508B-2EE3-4242-AFE2-80DCC5ACABA1}|CadParcial2Mvajc\\CadParcial2Mvajc.csproj|solutionrelative:cadparcial2mvajc\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\p2_Janco_Mariel\\Parcial2\\ddl_dml_parcial2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ddl_dml_parcial2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\p2_Janco_Mariel\\Parcial2\\ddl_dml_parcial2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ddl_dml_parcial2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +38,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CadParcial2Mvajc\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadParcial2Mvajc\\Modelo.edmx",
+              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CadParcial2Mvajc\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2Mvajc\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-04T23:33:11.875Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmSerie.cs",
-              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
-              "RelativeDocumentMoniker": "CpParcial2Mvajc\\FrmSerie.cs",
-              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
-              "RelativeToolTip": "CpParcial2Mvajc\\FrmSerie.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAA3wI8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T20:46:29.683Z",
+              "Title": "ddl_dml_parcial2.sql ",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\ddl_dml_parcial2.sql",
+              "RelativeDocumentMoniker": "ddl_dml_parcial2.sql",
+              "ToolTip": "ddl_dml_parcial2.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-04T23:13:40.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\App.config",
-              "RelativeDocumentMoniker": "CpParcial2Mvajc\\App.config",
-              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\App.config",
-              "RelativeToolTip": "CpParcial2Mvajc\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-04T20:40:12.46Z",
+              "DocumentIndex": 3,
+              "Title": "SerieCln.cs",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\ClnParcial2Mvajc\\SerieCln.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Mvajc\\SerieCln.cs",
+              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\ClnParcial2Mvajc\\SerieCln.cs",
+              "RelativeToolTip": "ClnParcial2Mvajc\\SerieCln.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:56:12.214Z",
               "EditorCaption": ""
             },
             {
@@ -59,8 +85,21 @@
               "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs [Dise\u00F1o]",
               "RelativeToolTip": "CpParcial2Mvajc\\FrmSerie.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T20:39:19.712Z",
+              "WhenOpened": "2024-11-04T23:05:50.393Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSerie.cs",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Mvajc\\FrmSerie.cs",
+              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
+              "RelativeToolTip": "CpParcial2Mvajc\\FrmSerie.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwH8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:46:29.683Z",
+              "EditorCaption": ""
             }
           ]
         },

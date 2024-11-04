@@ -39,7 +39,6 @@
 			this.nudEpisodios = new System.Windows.Forms.NumericUpDown();
 			this.lblFechaEstreno = new System.Windows.Forms.Label();
 			this.lblEpisodios = new System.Windows.Forms.Label();
-			this.cbxUnidadMedida = new System.Windows.Forms.ComboBox();
 			this.dgvSerie = new System.Windows.Forms.DataGridView();
 			this.gbxSerie = new System.Windows.Forms.GroupBox();
 			this.txtSinopsis = new System.Windows.Forms.TextBox();
@@ -47,6 +46,7 @@
 			this.lblSinopsis = new System.Windows.Forms.Label();
 			this.lblTitulo = new System.Windows.Forms.Label();
 			this.gbxDatos = new System.Windows.Forms.GroupBox();
+			this.lblGenero = new System.Windows.Forms.Label();
 			this.dtpFechaEstreno = new System.Windows.Forms.DateTimePicker();
 			this.txtDirector = new System.Windows.Forms.TextBox();
 			this.btnCancelar = new System.Windows.Forms.Button();
@@ -58,6 +58,7 @@
 			this.erpSinopsis = new System.Windows.Forms.ErrorProvider(this.components);
 			this.erpTitulo = new System.Windows.Forms.ErrorProvider(this.components);
 			this.btnBuscar = new System.Windows.Forms.Button();
+			this.cbxGenero = new System.Windows.Forms.ComboBox();
 			this.pnlAcciones.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.nudEpisodios)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dgvSerie)).BeginInit();
@@ -149,7 +150,7 @@
 			// 
 			// nudEpisodios
 			// 
-			this.nudEpisodios.Location = new System.Drawing.Point(528, 28);
+			this.nudEpisodios.Location = new System.Drawing.Point(482, 28);
 			this.nudEpisodios.Name = "nudEpisodios";
 			this.nudEpisodios.Size = new System.Drawing.Size(120, 20);
 			this.nudEpisodios.TabIndex = 8;
@@ -157,7 +158,7 @@
 			// lblFechaEstreno
 			// 
 			this.lblFechaEstreno.AutoSize = true;
-			this.lblFechaEstreno.Location = new System.Drawing.Point(408, 58);
+			this.lblFechaEstreno.Location = new System.Drawing.Point(362, 58);
 			this.lblFechaEstreno.Name = "lblFechaEstreno";
 			this.lblFechaEstreno.Size = new System.Drawing.Size(93, 13);
 			this.lblFechaEstreno.TabIndex = 7;
@@ -166,26 +167,11 @@
 			// lblEpisodios
 			// 
 			this.lblEpisodios.AutoSize = true;
-			this.lblEpisodios.Location = new System.Drawing.Point(408, 30);
+			this.lblEpisodios.Location = new System.Drawing.Point(362, 30);
 			this.lblEpisodios.Name = "lblEpisodios";
 			this.lblEpisodios.Size = new System.Drawing.Size(55, 13);
 			this.lblEpisodios.TabIndex = 6;
 			this.lblEpisodios.Text = "Episodios:";
-			// 
-			// cbxUnidadMedida
-			// 
-			this.cbxUnidadMedida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbxUnidadMedida.FormattingEnabled = true;
-			this.cbxUnidadMedida.Items.AddRange(new object[] {
-            "Caja",
-            "Docena",
-            "Paquete",
-            "Pliego",
-            "Unidad"});
-			this.cbxUnidadMedida.Location = new System.Drawing.Point(423, 90);
-			this.cbxUnidadMedida.Name = "cbxUnidadMedida";
-			this.cbxUnidadMedida.Size = new System.Drawing.Size(122, 21);
-			this.cbxUnidadMedida.TabIndex = 5;
 			// 
 			// dgvSerie
 			// 
@@ -213,14 +199,14 @@
 			// 
 			// txtSinopsis
 			// 
-			this.txtSinopsis.Location = new System.Drawing.Point(155, 55);
+			this.txtSinopsis.Location = new System.Drawing.Point(125, 55);
 			this.txtSinopsis.Name = "txtSinopsis";
 			this.txtSinopsis.Size = new System.Drawing.Size(194, 20);
 			this.txtSinopsis.TabIndex = 4;
 			// 
 			// txtTitulo
 			// 
-			this.txtTitulo.Location = new System.Drawing.Point(155, 27);
+			this.txtTitulo.Location = new System.Drawing.Point(125, 27);
 			this.txtTitulo.Name = "txtTitulo";
 			this.txtTitulo.Size = new System.Drawing.Size(194, 20);
 			this.txtTitulo.TabIndex = 3;
@@ -245,6 +231,8 @@
 			// 
 			// gbxDatos
 			// 
+			this.gbxDatos.Controls.Add(this.cbxGenero);
+			this.gbxDatos.Controls.Add(this.lblGenero);
 			this.gbxDatos.Controls.Add(this.dtpFechaEstreno);
 			this.gbxDatos.Controls.Add(this.txtDirector);
 			this.gbxDatos.Controls.Add(this.btnCancelar);
@@ -252,7 +240,6 @@
 			this.gbxDatos.Controls.Add(this.nudEpisodios);
 			this.gbxDatos.Controls.Add(this.lblFechaEstreno);
 			this.gbxDatos.Controls.Add(this.lblEpisodios);
-			this.gbxDatos.Controls.Add(this.cbxUnidadMedida);
 			this.gbxDatos.Controls.Add(this.txtSinopsis);
 			this.gbxDatos.Controls.Add(this.txtTitulo);
 			this.gbxDatos.Controls.Add(this.lblDirector);
@@ -265,10 +252,19 @@
 			this.gbxDatos.TabStop = false;
 			this.gbxDatos.Text = "Datos";
 			// 
+			// lblGenero
+			// 
+			this.lblGenero.AutoSize = true;
+			this.lblGenero.Location = new System.Drawing.Point(363, 85);
+			this.lblGenero.Name = "lblGenero";
+			this.lblGenero.Size = new System.Drawing.Size(45, 13);
+			this.lblGenero.TabIndex = 14;
+			this.lblGenero.Text = "Género:";
+			// 
 			// dtpFechaEstreno
 			// 
 			this.dtpFechaEstreno.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-			this.dtpFechaEstreno.Location = new System.Drawing.Point(528, 55);
+			this.dtpFechaEstreno.Location = new System.Drawing.Point(482, 55);
 			this.dtpFechaEstreno.Name = "dtpFechaEstreno";
 			this.dtpFechaEstreno.Size = new System.Drawing.Size(200, 20);
 			this.dtpFechaEstreno.TabIndex = 13;
@@ -276,7 +272,7 @@
 			// 
 			// txtDirector
 			// 
-			this.txtDirector.Location = new System.Drawing.Point(155, 81);
+			this.txtDirector.Location = new System.Drawing.Point(125, 81);
 			this.txtDirector.Name = "txtDirector";
 			this.txtDirector.Size = new System.Drawing.Size(194, 20);
 			this.txtDirector.TabIndex = 12;
@@ -348,6 +344,18 @@
 			this.btnBuscar.UseVisualStyleBackColor = true;
 			this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
 			// 
+			// cbxGenero
+			// 
+			this.cbxGenero.FormattingEnabled = true;
+			this.cbxGenero.Items.AddRange(new object[] {
+            "Drama",
+            "Comedia",
+            "Terror"});
+			this.cbxGenero.Location = new System.Drawing.Point(473, 83);
+			this.cbxGenero.Name = "cbxGenero";
+			this.cbxGenero.Size = new System.Drawing.Size(121, 21);
+			this.cbxGenero.TabIndex = 16;
+			// 
 			// FrmSerie
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -392,7 +400,6 @@
 		private System.Windows.Forms.NumericUpDown nudEpisodios;
 		private System.Windows.Forms.Label lblFechaEstreno;
 		private System.Windows.Forms.Label lblEpisodios;
-		private System.Windows.Forms.ComboBox cbxUnidadMedida;
 		private System.Windows.Forms.DataGridView dgvSerie;
 		private System.Windows.Forms.GroupBox gbxSerie;
 		private System.Windows.Forms.TextBox txtSinopsis;
@@ -409,6 +416,9 @@
 		private System.Windows.Forms.ErrorProvider erpTitulo;
 		private System.Windows.Forms.TextBox txtDirector;
 		private System.Windows.Forms.DateTimePicker dtpFechaEstreno;
+		private System.Windows.Forms.Label lblGenero;
+		private C1ComboBox c1ComboBox1;
+		private System.Windows.Forms.ComboBox cbxGenero;
 	}
 }
 

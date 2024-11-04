@@ -19,5 +19,6 @@ namespace CadParcial2Mvajc
         public string director { get; set; }
         public Nullable<int> episodios { get; set; }
         public Nullable<System.DateTime> fechaEstreno { get; set; }
+        public string genero { get; set; }
     }
 }

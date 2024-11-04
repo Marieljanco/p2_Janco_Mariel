@@ -82,7 +82,7 @@ namespace CpParcial2Mvajc
 				director = txtDirector.Text,
 				episodios = int.Parse(nudEpisodios.Text),
 				fechaEstreno = DateTime.Parse(dtpFechaEstreno.Text),
-
+				genero = cbxGenero.Text
 			};
 
 			if (esNuevo)
@@ -116,7 +116,7 @@ namespace CpParcial2Mvajc
 			txtDirector.Text = "";
 			nudEpisodios.Text = "";
 			dtpFechaEstreno.Text = "";
-
+			cbxGenero.Text = "";
 		}
 		private void HabilitarCampos(bool habilitar)
 		{
@@ -125,6 +125,7 @@ namespace CpParcial2Mvajc
 			txtDirector.Enabled = habilitar;
 			nudEpisodios.Enabled = habilitar;
 			dtpFechaEstreno.Enabled = habilitar;
+			cbxGenero.Enabled = habilitar;
 			btnGuardar.Enabled = habilitar;
 
 		}
@@ -135,6 +136,7 @@ namespace CpParcial2Mvajc
 			txtDirector.Text = dgvSerie.SelectedRows[0].Cells["director"].Value.ToString();
 			nudEpisodios.Text = dgvSerie.SelectedRows[0].Cells["episodios"].Value.ToString();
 			dtpFechaEstreno.Text = dgvSerie.SelectedRows[0].Cells["fechaEstreno"].Value.ToString();
+			cbxGenero.Text = dgvSerie.SelectedRows[0].Cells["genero"].Value.ToString();
 		}
 
 		//private void dgvSerie_CellContentClick(object sender, DataGridViewCellEventArgs e)
