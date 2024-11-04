@@ -29,7 +29,6 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			this.btnCerrar = new System.Windows.Forms.Button();
 			this.pnlAcciones = new System.Windows.Forms.Panel();
 			this.btnEliminar = new System.Windows.Forms.Button();
 			this.btnEditar = new System.Windows.Forms.Button();
@@ -71,20 +70,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.erpTitulo)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// btnCerrar
-			// 
-			this.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnCerrar.Location = new System.Drawing.Point(501, 2);
-			this.btnCerrar.Name = "btnCerrar";
-			this.btnCerrar.Size = new System.Drawing.Size(90, 39);
-			this.btnCerrar.TabIndex = 9;
-			this.btnCerrar.Text = "Cerrar";
-			this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.btnCerrar.UseVisualStyleBackColor = true;
-			// 
 			// pnlAcciones
 			// 
-			this.pnlAcciones.Controls.Add(this.btnCerrar);
 			this.pnlAcciones.Controls.Add(this.btnEliminar);
 			this.pnlAcciones.Controls.Add(this.btnEditar);
 			this.pnlAcciones.Controls.Add(this.btnNuevo);
@@ -104,6 +91,7 @@
 			this.btnEliminar.Text = "Eliminar";
 			this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.btnEliminar.UseVisualStyleBackColor = true;
+			this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
 			// 
 			// btnEditar
 			// 
@@ -116,6 +104,7 @@
 			this.btnEditar.Text = "Editar";
 			this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.btnEditar.UseVisualStyleBackColor = true;
+			this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
 			// 
 			// btnNuevo
 			// 
@@ -315,6 +304,7 @@
 			this.btnGuardar.Text = "Guardar";
 			this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.btnGuardar.UseVisualStyleBackColor = true;
+			this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
 			// 
 			// lblDirector
 			// 
@@ -356,6 +346,7 @@
 			this.btnBuscar.Text = "Buscar";
 			this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.btnBuscar.UseVisualStyleBackColor = true;
+			this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
 			// 
 			// FrmSerie
 			// 
@@ -389,8 +380,6 @@
 		}
 
 		#endregion
-
-		private System.Windows.Forms.Button btnCerrar;
 		private System.Windows.Forms.Button btnEditar;
 		private System.Windows.Forms.Panel pnlAcciones;
 		private System.Windows.Forms.Button btnEliminar;
