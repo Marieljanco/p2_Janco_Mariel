@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadParcial2Mvajc", "CadParc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClnParcial2Mvajc", "ClnParcial2Mvajc\ClnParcial2Mvajc.csproj", "{2DF99139-603F-4DB8-A2A8-CF8A6DB34A30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpParcial2Mvajc", "CpParcial2Mvajc\CpParcial2Mvajc.csproj", "{1B5DF077-2728-4EAB-B355-A558B9FBD387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2DF99139-603F-4DB8-A2A8-CF8A6DB34A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DF99139-603F-4DB8-A2A8-CF8A6DB34A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DF99139-603F-4DB8-A2A8-CF8A6DB34A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5DF077-2728-4EAB-B355-A558B9FBD387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5DF077-2728-4EAB-B355-A558B9FBD387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5DF077-2728-4EAB-B355-A558B9FBD387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5DF077-2728-4EAB-B355-A558B9FBD387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
