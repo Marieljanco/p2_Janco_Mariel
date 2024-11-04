@@ -1,12 +1,69 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\p2_Janco_Mariel\\Parcial2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|d:\\p2_janco_mariel\\parcial2\\cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|solutionrelative:cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|d:\\p2_janco_mariel\\parcial2\\cpparcial2mvajc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|solutionrelative:cpparcial2mvajc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|d:\\p2_janco_mariel\\parcial2\\cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5DF077-2728-4EAB-B355-A558B9FBD387}|CpParcial2Mvajc\\CpParcial2Mvajc.csproj|solutionrelative:cpparcial2mvajc\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
+        {
+          "DockedWidth": 193,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmSerie.cs",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Mvajc\\FrmSerie.cs",
+              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
+              "RelativeToolTip": "CpParcial2Mvajc\\FrmSerie.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAA3wI8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:46:29.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\App.config",
+              "RelativeDocumentMoniker": "CpParcial2Mvajc\\App.config",
+              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\App.config",
+              "RelativeToolTip": "CpParcial2Mvajc\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-04T20:40:12.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSerie.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Mvajc\\FrmSerie.cs",
+              "ToolTip": "D:\\p2_Janco_Mariel\\Parcial2\\CpParcial2Mvajc\\FrmSerie.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpParcial2Mvajc\\FrmSerie.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:39:19.712Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
         {
           "DockedWidth": 193,
           "SelectedChildIndex": -1,

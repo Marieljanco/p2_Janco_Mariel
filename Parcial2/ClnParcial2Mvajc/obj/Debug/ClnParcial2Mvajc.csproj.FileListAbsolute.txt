@@ -1,0 +1,15 @@
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\ClnParcial2Mvajc.dll.config
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\ClnParcial2Mvajc.dll
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\ClnParcial2Mvajc.pdb
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\CadParcial2Mvajc.dll
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\EntityFramework.dll
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\EntityFramework.SqlServer.dll
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\CadParcial2Mvajc.pdb
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\CadParcial2Mvajc.dll.config
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\EntityFramework.xml
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\bin\Debug\EntityFramework.SqlServer.xml
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\obj\Debug\ClnParcial2Mvajc.csproj.AssemblyReference.cache
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\obj\Debug\ClnParcial2Mvajc.csproj.CoreCompileInputs.cache
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\obj\Debug\ClnParci.0548D74B.Up2Date
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\obj\Debug\ClnParcial2Mvajc.dll
+D:\p2_Janco_Mariel\Parcial2\ClnParcial2Mvajc\obj\Debug\ClnParcial2Mvajc.pdb
