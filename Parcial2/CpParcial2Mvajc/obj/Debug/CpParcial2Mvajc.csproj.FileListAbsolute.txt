@@ -26,3 +26,9 @@ D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\obj\Debug\CpParcial2Mvajc.csproj.Cor
 D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\obj\Debug\CpParcia.C942D167.Up2Date
 D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\obj\Debug\CpParcial2Mvajc.exe
 D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\obj\Debug\CpParcial2Mvajc.pdb
+D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\bin\Debug\C1.Win.4.5.2.dll
+D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\bin\Debug\C1.Win.C1Command.4.5.2.dll
+D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\bin\Debug\C1.Win.C1Input.4.5.2.dll
+D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\bin\Debug\C1.Win.4.5.2.xml
+D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\bin\Debug\C1.Win.C1Command.4.5.2.xml
+D:\p2_Janco_Mariel\Parcial2\CpParcial2Mvajc\bin\Debug\C1.Win.C1Input.4.5.2.xml

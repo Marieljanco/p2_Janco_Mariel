@@ -46,6 +46,7 @@
 			this.lblSinopsis = new System.Windows.Forms.Label();
 			this.lblTitulo = new System.Windows.Forms.Label();
 			this.gbxDatos = new System.Windows.Forms.GroupBox();
+			this.cbxGenero = new System.Windows.Forms.ComboBox();
 			this.lblGenero = new System.Windows.Forms.Label();
 			this.dtpFechaEstreno = new System.Windows.Forms.DateTimePicker();
 			this.txtDirector = new System.Windows.Forms.TextBox();
@@ -58,7 +59,6 @@
 			this.erpSinopsis = new System.Windows.Forms.ErrorProvider(this.components);
 			this.erpTitulo = new System.Windows.Forms.ErrorProvider(this.components);
 			this.btnBuscar = new System.Windows.Forms.Button();
-			this.cbxGenero = new System.Windows.Forms.ComboBox();
 			this.pnlAcciones.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.nudEpisodios)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dgvSerie)).BeginInit();
@@ -125,9 +125,9 @@
 			this.lblBusqueda.AutoSize = true;
 			this.lblBusqueda.Location = new System.Drawing.Point(13, 59);
 			this.lblBusqueda.Name = "lblBusqueda";
-			this.lblBusqueda.Size = new System.Drawing.Size(165, 13);
+			this.lblBusqueda.Size = new System.Drawing.Size(92, 13);
 			this.lblBusqueda.TabIndex = 15;
-			this.lblBusqueda.Text = "Buscar por Código o Descripción:";
+			this.lblBusqueda.Text = "Buscar por Título:";
 			// 
 			// lblTituloPrincipal
 			// 
@@ -252,6 +252,20 @@
 			this.gbxDatos.TabStop = false;
 			this.gbxDatos.Text = "Datos";
 			// 
+			// cbxGenero
+			// 
+			this.cbxGenero.FormattingEnabled = true;
+			this.cbxGenero.Items.AddRange(new object[] {
+            "Comedia",
+            "Tragedia",
+            "Terror",
+            "Drama",
+            "Ficción"});
+			this.cbxGenero.Location = new System.Drawing.Point(481, 83);
+			this.cbxGenero.Name = "cbxGenero";
+			this.cbxGenero.Size = new System.Drawing.Size(121, 21);
+			this.cbxGenero.TabIndex = 17;
+			// 
 			// lblGenero
 			// 
 			this.lblGenero.AutoSize = true;
@@ -266,7 +280,7 @@
 			this.dtpFechaEstreno.Format = System.Windows.Forms.DateTimePickerFormat.Short;
 			this.dtpFechaEstreno.Location = new System.Drawing.Point(482, 55);
 			this.dtpFechaEstreno.Name = "dtpFechaEstreno";
-			this.dtpFechaEstreno.Size = new System.Drawing.Size(200, 20);
+			this.dtpFechaEstreno.Size = new System.Drawing.Size(120, 20);
 			this.dtpFechaEstreno.TabIndex = 13;
 			this.dtpFechaEstreno.Value = new System.DateTime(2024, 11, 4, 14, 44, 50, 0);
 			// 
@@ -344,18 +358,6 @@
 			this.btnBuscar.UseVisualStyleBackColor = true;
 			this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
 			// 
-			// cbxGenero
-			// 
-			this.cbxGenero.FormattingEnabled = true;
-			this.cbxGenero.Items.AddRange(new object[] {
-            "Drama",
-            "Comedia",
-            "Terror"});
-			this.cbxGenero.Location = new System.Drawing.Point(473, 83);
-			this.cbxGenero.Name = "cbxGenero";
-			this.cbxGenero.Size = new System.Drawing.Size(121, 21);
-			this.cbxGenero.TabIndex = 16;
-			// 
 			// FrmSerie
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -417,7 +419,7 @@
 		private System.Windows.Forms.TextBox txtDirector;
 		private System.Windows.Forms.DateTimePicker dtpFechaEstreno;
 		private System.Windows.Forms.Label lblGenero;
-		private C1ComboBox c1ComboBox1;
+		//private C1ComboBox c1ComboBox1;
 		private System.Windows.Forms.ComboBox cbxGenero;
 	}
 }
